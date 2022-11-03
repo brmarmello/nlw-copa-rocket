@@ -21,7 +21,7 @@ async function bootstrap() {
     return { count }
   })
 
-  await fastify.listen({ port: 3333, host: '0.0.0.0' }) // host passado para que a aplicação funcione bem dentro do Android.
+  await fastify.listen({ port: 3333, /*host: '0.0.0.0'*/ }) // host passado para que a aplicação funcione bem dentro do Android.
 }
 
 bootstrap()
